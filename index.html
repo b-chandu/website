@@ -1,139 +1,634 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chandan B | Cloud Solutions Architect</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #0f172a;
-    color: #f1f5f9;
-}
-header {
-    padding: 60px 20px;
-    text-align: center;
-}
-header h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-header p {
-    font-size: 20px;
-    color: #94a3b8;
-}
-section {
-    padding: 60px 10%;
-}
-h2 {
-    border-bottom: 2px solid #2563eb;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-}
-.card {
-    background-color: #1e293b;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1e293b;
-}
-a {
-    color: #60a5fa;
-    text-decoration: none;
-}
-</style>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan B — Cloud Solutions Architect</title>
+    <meta name="description" content="Cloud Solutions Architect with 9+ years designing secure, scalable cloud platforms on AWS, Azure & GCP. Expert in Kubernetes, DevOps, cloud security, and compliance.">
+    <meta name="keywords" content="Cloud Solutions Architect, AWS, Azure, GCP, Kubernetes, DevOps, Cloud Security, SOC2, ISO27001, Bangalore">
+    <meta name="author" content="Chandan B">
 
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chandanb.in/">
+    <meta property="og:title" content="Chandan B — Cloud Solutions Architect">
+    <meta property="og:description" content="9+ years designing secure, scalable cloud platforms on AWS, Azure & GCP">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%233b82f6'/><text y='72' x='12' font-size='68' font-family='monospace' font-weight='bold' fill='white'>CB</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-<header>
-<h1>Chandan B</h1>
-<p>Cloud Solutions Architect | Multi-Cloud | Kubernetes | DevSecOps | SOC2 & ISO 27001</p>
-<p>Designing secure, scalable & cost-optimized enterprise cloud platforms across AWS, Azure & GCP</p>
-</header>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>CB<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link contact-nav">Contact</a></li>
+            </ul>
+            <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
 
-<section>
-<h2>About Me</h2>
-<div class="card">
-<p>
-Cloud Solutions Architect with 9+ years of experience leading multi-cloud architecture initiatives across India, US, UK and UAE markets. 
-Specialized in Kubernetes-based SaaS platforms, compliance-driven cloud security, large-scale migrations and enterprise modernization programs.
-</p>
-</div>
-</section>
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-orb orb-1"></div>
+            <div class="hero-orb orb-2"></div>
+            <div class="hero-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open to consulting &amp; opportunities
+            </div>
+            <h1 class="hero-name">Chandan B</h1>
+            <h2 class="hero-title">Cloud Solutions <span class="gradient-text">Architect</span></h2>
+            <p class="hero-description">
+                9+ years designing and leading <strong>secure, scalable, cost-optimized</strong> cloud platforms
+                across AWS, Azure &amp; GCP — for India, US, UK, and UAE markets.
+                Specialized in Kubernetes-based SaaS, cloud security, and compliance.
+            </p>
+            <div class="hero-cloud-badges">
+                <div class="cloud-badge aws"><i class="fab fa-aws"></i> AWS</div>
+                <div class="cloud-badge azure"><i class="fab fa-microsoft"></i> Azure</div>
+                <div class="cloud-badge gcp"><i class="fab fa-google"></i> GCP</div>
+                <div class="cloud-badge k8s"><i class="fas fa-dharmachakra"></i> Kubernetes</div>
+            </div>
+            <div class="hero-cta">
+                <a href="mailto:Chandrashekarachar01@gmail.com" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+                <a href="#experience" class="btn btn-secondary">
+                    <i class="fas fa-briefcase"></i> View Experience
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>Core Expertise</h2>
-<div class="card">
-<ul>
-<li>Cloud Platforms: AWS, Azure, GCP</li>
-<li>Containers: EKS, AKS, GKE, Helm, ArgoCD</li>
-<li>Infrastructure as Code: Terraform</li>
-<li>DevSecOps: Bitbucket Pipelines, Azure DevOps, Jenkins</li>
-<li>Security: SOC2, ISO 27001, CIS Benchmarks</li>
-<li>Observability: Prometheus, Grafana, OpenTelemetry, ELK</li>
-<li>Cost Optimization & Governance</li>
-</ul>
-</div>
-</section>
+    <!-- ===== STATS ===== -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="9" data-suffix="+">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="30" data-suffix="+">0</div>
+                    <div class="stat-label">Engineers Led</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="70" data-suffix="+">0</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="3" data-suffix="">3</div>
+                    <div class="stat-label">Cloud Platforms</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section>
-<h2>Enterprise Experience</h2>
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2 class="section-title">Building the Cloud Backbone<br>of Modern Enterprises</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a <strong>Cloud Solutions Architect</strong> with 9+ years of experience across India, US, UK,
+                        and UAE markets. I specialize in designing and leading cloud platforms that are secure, scalable,
+                        and cost-optimized — helping engineering teams ship faster and operate with confidence.
+                    </p>
+                    <p>
+                        From <strong>Kubernetes-native SaaS platforms</strong> to enterprise cloud migrations, I've architected
+                        solutions on AWS, Azure, and GCP that power mission-critical workloads. My work spans the full stack
+                        of cloud engineering — infrastructure, security, observability, and compliance.
+                    </p>
+                    <p>
+                        I've successfully led SOC 2 and ISO 27001 audits with zero major findings, built and mentored 30+
+                        member DevOps teams, delivered 70+ system integration projects, and worked directly with enterprise
+                        customers to enable technical due diligence and unblock deals.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-halved"></i>
+                            <span>SOC 2 &amp; ISO 27001 Compliance</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Leadership &amp; Mentoring</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Cloud Cost Optimization</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Multi-Market: IN · US · UK · UAE</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-sidebar">
+                    <div class="profile-card">
+                        <div class="profile-avatar">CB</div>
+                        <div class="profile-info">
+                            <h3>Chandan B</h3>
+                            <p>Cloud Solutions Architect</p>
+                        </div>
+                        <div class="profile-details">
+                            <div class="detail-row">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:Chandrashekarachar01@gmail.com">Chandrashekarachar01@gmail.com</a>
+                            </div>
+                            <div class="detail-row">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+918904837731">+91 8904837731</a>
+                            </div>
+                            <div class="detail-row">
+                                <i class="fas fa-location-dot"></i>
+                                <span>Bangalore, India</span>
+                            </div>
+                            <div class="detail-row">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS Certified SA – Professional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="card">
-<h3>Auquan – Cloud Solutions Architect</h3>
-<ul>
-<li>Led Azure & AWS platform architecture</li>
-<li>Migrated EKS workloads to Azure Container Apps reducing cost</li>
-<li>Supported ISO 27001 & SOC2 audits with zero major findings</li>
-<li>Led enterprise security reviews for US & UK clients</li>
-</ul>
-</div>
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Skills</span>
+                <h2 class="section-title">Expertise Across the<br>Cloud Ecosystem</h2>
+            </div>
+            <div class="skills-grid">
 
-<div class="card">
-<h3>Nextuple – Cloud Architect</h3>
-<ul>
-<li>Built one-click SaaS deployments using Terraform, Helm & ArgoCD</li>
-<li>Integrated DevSecOps into CI/CD pipelines</li>
-<li>Implemented Kubernetes policy enforcement</li>
-</ul>
-</div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Compute &amp; Containers</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">EC2</span><span class="tag">Lambda</span><span class="tag">ECS</span>
+                        <span class="tag">EKS</span><span class="tag">Azure Functions</span><span class="tag">AKS</span>
+                        <span class="tag">Azure Container Apps</span><span class="tag">Compute Engine</span><span class="tag">GKE</span>
+                    </div>
+                </div>
 
-<div class="card">
-<h3>CloudThat – Senior Cloud Architect</h3>
-<ul>
-<li>Delivered 70+ cloud transformation projects</li>
-<li>Led 30+ DevOps engineers</li>
-<li>Designed secure multi-cloud foundations</li>
-</ul>
-</div>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-dharmachakra"></i>
+                        <h3>Orchestration &amp; GitOps</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Kubernetes</span><span class="tag">Helm</span><span class="tag">Argo CD</span>
+                        <span class="tag">Terraform</span><span class="tag">Devtron</span><span class="tag">Docker</span>
+                        <span class="tag">OPA/Gatekeeper</span><span class="tag">Ratify</span>
+                    </div>
+                </div>
 
-</section>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>CI/CD &amp; Automation</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">GitHub Actions</span><span class="tag">Azure DevOps</span>
+                        <span class="tag">Bitbucket Pipelines</span><span class="tag">Jenkins</span>
+                        <span class="tag">AWS Developer Tools</span>
+                    </div>
+                </div>
 
-<section>
-<h2>Certifications</h2>
-<div class="card">
-<p>AWS Certified Solutions Architect – Professional</p>
-</div>
-</section>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-shield-halved"></i>
+                        <h3>Security &amp; Compliance</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">SOC 2</span><span class="tag">ISO 27001</span><span class="tag">CIS Benchmarks</span>
+                        <span class="tag">IAM / SSO / MFA</span><span class="tag">WAF</span><span class="tag">GuardDuty</span>
+                        <span class="tag">Inspector</span><span class="tag">KMS</span><span class="tag">Entra ID</span>
+                        <span class="tag">Key Vault</span><span class="tag">SonarQube</span><span class="tag">Snyk</span>
+                        <span class="tag">Burp Suite</span><span class="tag">Defender for Cloud</span>
+                    </div>
+                </div>
 
-<section>
-<h2>Contact</h2>
-<div class="card">
-<p>Email: Chandrashekarachar01@gmail.com</p>
-<p>Phone: 8904837731</p>
-<p>LinkedIn: Add your profile link here</p>
-</div>
-</section>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-chart-area"></i>
+                        <h3>Observability &amp; Analytics</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">OpenTelemetry</span>
+                        <span class="tag">ELK / OpenSearch</span><span class="tag">CloudWatch</span><span class="tag">Azure Monitor</span>
+                        <span class="tag">Sentry</span><span class="tag">New Relic</span><span class="tag">Elastic APM</span>
+                        <span class="tag">Azure AI Foundry</span>
+                    </div>
+                </div>
 
-<footer>
-<p>© 2026 Chandan B | Cloud Architect Portfolio</p>
-</footer>
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Networking &amp; CDN</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">VPC</span><span class="tag">Route 53</span><span class="tag">CloudFront</span>
+                        <span class="tag">Transit Gateway</span><span class="tag">Application Gateway</span>
+                        <span class="tag">CloudFlare</span><span class="tag">OpenVPN</span><span class="tag">Load Balancing</span>
+                    </div>
+                </div>
 
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data &amp; Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">RDS / Aurora</span><span class="tag">DynamoDB</span><span class="tag">Azure SQL</span>
+                        <span class="tag">MongoDB Atlas</span><span class="tag">Cloud SQL</span><span class="tag">Firestore</span>
+                        <span class="tag">Kafka</span><span class="tag">Redis</span><span class="tag">CouchbaseDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-cat-header">
+                        <i class="fas fa-arrows-split-up-and-left"></i>
+                        <h3>Integration &amp; Messaging</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">API Gateway</span><span class="tag">EventBridge</span><span class="tag">SQS / SNS</span>
+                        <span class="tag">Azure APIM</span><span class="tag">Pub/Sub</span><span class="tag">SES</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="experience-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Work Experience</span>
+                <h2 class="section-title">9+ Years of Cloud<br>Architecture Leadership</h2>
+            </div>
+            <div class="timeline">
+
+                <!-- Auquan -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="card-company">
+                                <div class="company-logo" style="background: linear-gradient(135deg,#6366f1,#8b5cf6)">A</div>
+                                <div>
+                                    <h3 class="company-name">Auquan</h3>
+                                    <span class="project-tag">Project: Alchemist</span>
+                                </div>
+                            </div>
+                            <span class="role-badge">Cloud Solutions Architect</span>
+                        </div>
+                        <ul class="card-points">
+                            <li>Led overall cloud platform design across Azure and AWS — secure, scalable, and operationally excellent</li>
+                            <li>Drove migration from AWS EC2/EKS to Azure Container Apps, simplifying the platform and significantly reducing cloud costs</li>
+                            <li>Built one-click deployment using Azure Landing Zones, APIM, WAF, and load balancing, cutting environment setup time</li>
+                            <li>Successfully supported ISO 27001 and SOC 2 audits with <strong>zero major findings</strong></li>
+                            <li>Worked with US &amp; UK enterprise customers on security reviews, DDQs, and technical due diligence</li>
+                            <li>Set up monitoring with OpenTelemetry, Grafana, Sentry, and Jira SM; defined SSO, MFA, and RBAC standards</li>
+                            <li>Led penetration testing remediation achieving <strong>zero critical/high vulnerabilities post-remediation</strong></li>
+                        </ul>
+                        <div class="card-tech">
+                            <span class="tech-tag">Azure</span><span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Container Apps</span><span class="tech-tag">APIM</span>
+                            <span class="tech-tag">SOC 2</span><span class="tech-tag">ISO 27001</span>
+                            <span class="tech-tag">Grafana</span><span class="tech-tag">OpenTelemetry</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nextuple -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="card-company">
+                                <div class="company-logo" style="background: linear-gradient(135deg,#0891b2,#06b6d4)">N</div>
+                                <div>
+                                    <h3 class="company-name">Nextuple</h3>
+                                    <span class="project-tag">Project: Order Management Systems</span>
+                                </div>
+                            </div>
+                            <span class="role-badge">Cloud Architect</span>
+                        </div>
+                        <ul class="card-points">
+                            <li>Enabled one-click SaaS product deployments via Terraform, Helm, and ArgoCD — environment provisioning in minutes</li>
+                            <li>Integrated DevSecOps into CI/CD with BitBucket pipelines for automated security testing at every stage</li>
+                            <li>Supported SOC 2 and ISO 27001 readiness using Tugboat compliance automation platform</li>
+                            <li>Configured Amazon EKS with Gatekeeper and Ratify for policy enforcement and container image compliance</li>
+                            <li>Leveraged AWS CloudTrail, GuardDuty, and Inspector to identify, assess, and mitigate security risks</li>
+                            <li>Delivered JFrog Artifactory cost optimization via in-house setup and Kubernetes-level optimizations</li>
+                        </ul>
+                        <div class="card-tech">
+                            <span class="tech-tag">EKS</span><span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">ArgoCD</span><span class="tech-tag">Helm</span>
+                            <span class="tech-tag">Gatekeeper</span><span class="tech-tag">GuardDuty</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontier -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="card-company">
+                                <div class="company-logo" style="background: linear-gradient(135deg,#10b981,#059669)">F</div>
+                                <div>
+                                    <h3 class="company-name">Frontier</h3>
+                                    <span class="project-tag">Cloud Modernization &amp; Architecture</span>
+                                </div>
+                            </div>
+                            <span class="role-badge">Cloud Solutions Architect</span>
+                        </div>
+                        <ul class="card-points">
+                            <li>Led cloud modernization for 10+ enterprise, SMB, and PSU applications supporting mission-critical workloads</li>
+                            <li>Modernized legacy Django applications into microservices on Amazon EKS for the Digi Yatra platform</li>
+                            <li>Architected disaster recovery (DR) solutions for microservices-based platforms using EKS, RDS, and Kafka</li>
+                            <li>Designed and implemented SOC 2 compliant cloud architectures for enterprise and public-sector clients</li>
+                            <li>Built and mentored a 10+ member DevOps engineering team, establishing delivery standards and best practices</li>
+                            <li>Contributed to AWS Competencies by writing case studies, technical blogs, and delivering consulting projects</li>
+                        </ul>
+                        <div class="card-tech">
+                            <span class="tech-tag">AWS</span><span class="tech-tag">EKS</span>
+                            <span class="tech-tag">RDS</span><span class="tech-tag">Kafka</span>
+                            <span class="tech-tag">SOC 2</span><span class="tech-tag">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CloudThat -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                        <div class="marker-line"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="card-company">
+                                <div class="company-logo" style="background: linear-gradient(135deg,#f59e0b,#d97706)">C</div>
+                                <div>
+                                    <h3 class="company-name">CloudThat</h3>
+                                    <span class="project-tag">Multi-Client Engagements</span>
+                                </div>
+                            </div>
+                            <span class="role-badge">Principal Cloud Architect</span>
+                        </div>
+                        <ul class="card-points">
+                            <li>Led and mentored a <strong>30+ member DevOps and Kubernetes team</strong> across AWS, Azure, and GCP programs</li>
+                            <li>Successfully delivered <strong>70+ system integration and cloud transformation projects</strong></li>
+                            <li>Migrated legacy EC2 and Elastic Beanstalk workloads to containerized microservices on EKS, AKS, and GKE</li>
+                            <li>Established end-to-end CI/CD and GitOps platforms using Argo CD, Helm, Terraform, Devtron, and Azure DevOps</li>
+                            <li>Architected centralized observability using OpenSearch/ELK, Prometheus, Grafana, and Elastic APM</li>
+                            <li>Led multi-cloud Azure initiatives: AKS, APIM, Application Gateway, WAF, Key Vault, Cosmos DB</li>
+                            <li>Architected large-scale distributed systems supporting 50+ Java microservices with Kafka, Solr, Elasticsearch</li>
+                            <li>Participated in evaluation process for <strong>200+ candidates</strong>, supporting org growth and hiring</li>
+                        </ul>
+                        <div class="card-tech">
+                            <span class="tech-tag">AWS</span><span class="tech-tag">Azure</span><span class="tech-tag">GCP</span>
+                            <span class="tech-tag">EKS / AKS / GKE</span><span class="tech-tag">Terraform</span>
+                            <span class="tech-tag">GitOps</span><span class="tech-tag">ELK</span><span class="tech-tag">Prometheus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cogzy -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="card-header">
+                            <div class="card-company">
+                                <div class="company-logo" style="background: linear-gradient(135deg,#ef4444,#dc2626)">G</div>
+                                <div>
+                                    <h3 class="company-name">Cogzy Technologies</h3>
+                                    <span class="project-tag">Project: Gtruckways</span>
+                                </div>
+                            </div>
+                            <span class="role-badge">Cloud Engineer</span>
+                        </div>
+                        <ul class="card-points">
+                            <li>Designed fault-tolerant, cost-efficient, scalable distributed systems on AWS for Spring Boot Java applications</li>
+                            <li>Managed AWS IAM for secure access control; automated AMI backups and deletion using Lambda functions</li>
+                            <li>Deployed RDS MySQL with multi-AZ for production high availability</li>
+                            <li>Supported a scalable logistics SaaS platform serving <strong>2,300+ transportation providers</strong> including 3PLs and fleet operators</li>
+                        </ul>
+                        <div class="card-tech">
+                            <span class="tech-tag">AWS</span><span class="tech-tag">EC2</span>
+                            <span class="tech-tag">RDS</span><span class="tech-tag">Lambda</span>
+                            <span class="tech-tag">IAM</span><span class="tech-tag">SaaS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS & ACHIEVEMENTS ===== -->
+    <section id="certifications" class="cert-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2 class="section-title">Certifications &amp; Achievements</h2>
+            </div>
+            <div class="cert-grid">
+
+                <div class="cert-card featured">
+                    <div class="cert-icon cert-icon-aws">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Certified Solutions Architect</h3>
+                        <p>Professional Level — highest tier AWS architecture certification</p>
+                        <span class="cert-badge">Certified</span>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-users-gear"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>30+ Engineer Team Lead</h3>
+                        <p>Built and led large-scale DevOps and Kubernetes engineering teams</p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>70+ Projects Delivered</h3>
+                        <p>Cloud transformation and system integration across enterprises globally</p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Partnerships</h3>
+                        <p>Key role in gaining AWS Competencies, Service Delivery, and MSP Partnerships</p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Zero Critical Vulnerabilities</h3>
+                        <p>Led pen testing and remediation — zero critical/high vulnerabilities post-remediation</p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Client Excellence</h3>
+                        <p>Recognized for strong client commitment and proactive ownership across cloud delivery</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="education-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="education-card">
+                <div class="edu-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="edu-content">
+                    <h3>B.E. Electronics &amp; Communication Engineering</h3>
+                    <p class="edu-school">University Visvesvaraya College of Engineering (UVCE), Bangalore</p>
+                    <p class="edu-year">2012 – 2016</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Let's Build Something<br>Great Together</h2>
+                <p class="section-subtitle">
+                    Whether you need cloud architecture consulting, enterprise migrations, Kubernetes platform
+                    engineering, or security compliance — I'd love to hear about your project.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <a href="mailto:Chandrashekarachar01@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <span>Chandrashekarachar01@gmail.com</span>
+                </a>
+                <a href="tel:+918904837731" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <span>+91 8904837731</span>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <span>Bangalore, India</span>
+                </div>
+            </div>
+            <div class="contact-cta">
+                <a href="mailto:Chandrashekarachar01@gmail.com" class="btn btn-primary btn-lg">
+                    <i class="fas fa-paper-plane"></i> Send Me a Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>CB<span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-tagline">Cloud Solutions Architect · AWS · Azure · GCP · Kubernetes</p>
+                <p class="footer-copy">© 2025 Chandan B. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
